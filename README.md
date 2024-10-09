@@ -62,6 +62,8 @@ Utilicé APIFY scraping para extraer los datos de Airbnb
 
    5. BigQuery
  	- Utilicé BigQuery para crear un proyecto nuevo con el 
-	nombre vacational-rental e importar los dos archivos 
+	nombre vacational-rental e importé los dos archivos 
 	(Booking y Property) en formato parquet que cree en 
 	VSCode.
+	A continuación adjunto el link con los dataset en BigQuery:
+	https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1svacational-rental!2sBooking_Property
