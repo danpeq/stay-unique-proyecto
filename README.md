@@ -59,3 +59,9 @@ Utilicé APIFY scraping para extraer los datos de Airbnb
 	de fecha a date
 	- Cree files de Booking y Property con formato parquet
 	para poder importarlas en Google BigQuery.
+
+   5. BigQuery
+ 	- Utilicé BigQuery para crear un proyecto nuevo con el 
+	nombre vacational-rental e importar los dos archivos 
+	(Booking y Property) en formato parquet que cree en 
+	VSCode.
