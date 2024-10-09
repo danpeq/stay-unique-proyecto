@@ -5,7 +5,7 @@ Proyecto comparación de CSV files y scraping para decisiones estratégicas y me
 
 1. Existe un método con Python usando BeautifulSoup, mediante
 la inspección de la página y la extracción de las clases del
-código HTML cada título e información en la cuales estamos 
+código HTML de cada título e información en la cuales estamos 
 interesados, pero en esta oportunidad quiero presentar una 
 manera mas eficiente y rápida de obtener los datos haciendo 
 scraping utilizando APIFY.
@@ -46,6 +46,7 @@ Utilicé APIFY scraping para extraer los datos de Airbnb
 	para trabajar. --> airbnbvenv(Python 3.12.2)
 
 4. Proceso pipeline ETL
+   	- El código de limpieza EDA y ETL en python se encuentra en el archivo: 'airbnb_barcelona.ipynb'
 	- Decidí no combiar las dos tablas (Booking y Property),
 	ya que en la tabla booking me presenta el PropertyId
 	de cada propiedad con cada una de las reservas de cada
